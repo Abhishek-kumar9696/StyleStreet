@@ -1,4 +1,5 @@
 
+
 import express from "express";
 import colors from "colors";
 import dotenv from "dotenv";
@@ -8,8 +9,7 @@ import authRoutes from "./routes/authRoute.js";
 import categoryRoutes from "./routes/categoryRoutes.js";
 import productRoutes from './routes/productRoutes.js';
 import cors from 'cors';
-import path from "path";
-import { fileURLToPath } from 'url';
+
 
 // Configure dotenv
 dotenv.config();
